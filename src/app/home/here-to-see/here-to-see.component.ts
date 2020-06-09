@@ -1,14 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
+import { Router } from "@angular/router";
 
 @Component({
-  selector: 'app-here-to-see',
-  templateUrl: './here-to-see.component.html',
-  styleUrls: ['./here-to-see.component.scss'],
+  selector: "app-here-to-see",
+  templateUrl: "./here-to-see.component.html",
+  styleUrls: ["./here-to-see.component.scss"],
 })
 export class HereToSeeComponent implements OnInit {
+  constructor(private route: Router) {}
 
-  constructor() { }
+  ngOnInit() {
+    console.log("heretoseecomponent");
 
-  ngOnInit() {}
-
+    this.route.navigateByUrl("/home/photoscreen");
+  }
 }

@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0px 10px 0px;
+}
+
+.rectangle-126 {
+  width: 50px;
+  height: 55px;
+  border-radius: 12px;
+  border: solid 2px #59e4c2;
+  background-color: #ffffff;
+}
+
+.backButton {
+  width: 15px;
+  height: 50px;
+  margin-left: 14px;
+  object-fit: contain;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: end;
+}
+
+.textLeft {
+  text-align: start;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+.outer {
+  margin: auto;
+  background-color: white;
+  width: 100px; /* You can define it by % also */
+  height: 100px; /* You can define it by % also */
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-image: url("../../../assets/logan.jpg");
+  background-size: cover;
+}
+
+.rectangle-23 {
+  padding: 0px;
+  margin: 10px 0px 20px 0px;
+  width: 100%;
+  height: 1px;
+  border-radius: 0px;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.16);
+  background-color: #797575;
+}

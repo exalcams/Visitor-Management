@@ -1,0 +1,75 @@
+:root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
+}
+
+.item-native {
+  padding-left: 0px !important;
+}
+
+.rectangle-126 {
+  width: 50px;
+  height: 55px;
+  border-radius: 12px;
+  border: solid 2px #59e4c2;
+  background-color: #ffffff;
+}
+
+.backButton {
+  width: 15px;
+  height: 50px;
+  margin-left: 14px;
+  object-fit: contain;
+}
+
+.forwardButton {
+  float: right;
+  position: relative;
+  top: -32px;
+  height: 20px;
+  right: 10px;
+}
+
+.path-232 {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  height: 55px;
+  border-radius: 12px;
+  border: solid 2px #59e4c2;
+  background-color: #ffffff;
+}
+
+.ellipse-8 {
+  width: 170px;
+  height: 170px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #67e0b0;
+  background-color: #ffffff;
+}
+
+.outer {
+  margin-top: 5px;
+  background-color: white;
+  width: 200px; /* You can define it by % also */
+  height: 200px; /* You can define it by % also */
+  position: relative;
+  border: 1px solid #67e0b0;
+  border-radius: 50%;
+}
+
+.inner {
+  background-color: white;
+  top: 2%; /* of the container */
+  width: 96%; /* of the container */
+  height: 96%; /* of the container */
+  position: relative;
+  border: 1px solid #67e0b0;
+  border-radius: 50%;
+  background-image: url("../../../assets/logan.jpg");
+  background-size: cover;
+}
+
+.mandatory {
+  color: red;
+}

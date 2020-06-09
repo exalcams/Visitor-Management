@@ -1,0 +1,65 @@
+<ion-content [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="rectangle-126">
+          <ion-img class="backButton" src="assets/BackButton.svg"></ion-img>
+        </div>
+      </ion-col>
+      <ion-col>
+        <ion-img style="height: 40px;width: 120px;float:right;" src="assets/Logo_blue.png"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="margin-top: 5vh;">
+      <ion-col>
+        <ion-list lines="full" class="ion-no-margin ion-no-padding" style="text-align:-webkit-center">
+          <ion-text>
+            <small style="font-weight: bolder;">Great.! Please confirm your details</small>
+          </ion-text>
+          <div class="outer">
+            <div class="inner">&nbsp;
+            </div>
+          </div>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Name<span class="mandatory">*</span></ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Email Address<span class="mandatory">*</span></ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Purpose<span class="mandatory">*</span></ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col>
+        <ion-item>
+          <ion-label position="floating">Host<span class="mandatory">*</span></ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="margin-top: 5vh;">
+      <div class="path-232" (click)="navigateTo()">
+        <h4 style="color: #1279ff;font-weight: bold;">Next</h4>
+        <ion-img class="forwardButton" src="assets/ForwardButton.svg"></ion-img>
+      </div>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

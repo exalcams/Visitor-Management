@@ -1,0 +1,33 @@
+<ion-content [fullscreen]="true" class="heretosee">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <div class="rectangle-126">
+          <ion-img class="backButton" src="assets/BackButton.svg"></ion-img>
+        </div>
+      </ion-col>
+      <ion-col>
+        <ion-img style="height: 40px;width: 120px;float:right;" src="assets/Logo_blue.png"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="margin-top: 17vh;">
+      <ion-col>
+        <ion-list lines="full" class="ion-no-margin ion-no-padding" style="text-align:-webkit-center">
+          <ion-img style="height: 150px;width: 150px;" src="assets/PhotoScreen.png"></ion-img>
+          <ion-text style="padding-top:5px">
+            <small style="padding-left: 10px;opacity: 0.6;">As a part of the registration process your photo will be captured now</small>
+          </ion-text>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-row style="margin-top: 25vh;">
+      <div class="path-232" (click)="takePic()">
+        <h4 style="color: #1279ff;font-weight: bold;">Capture Image</h4>
+      </div>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
